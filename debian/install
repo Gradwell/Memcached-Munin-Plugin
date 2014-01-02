@@ -1,2 +1,2 @@
-src/* /usr/share/munin/plugins/
+memcache* /usr/share/munin/plugins/
 
