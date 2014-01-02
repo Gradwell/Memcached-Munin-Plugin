@@ -1,0 +1,18 @@
+Source: gw-voip-munin-plugins-memcached
+Section: extra
+Priority: extra
+Maintainer: Engineering Team <development@list.gradwell.net>
+Build-Depends: debhelper (>= 8),
+ build-essential
+Standards-Version: 3.7.3
+Homepage: http://www.gradwell.com/
+
+Package: gw-voip-munin-plugins-memcached
+Architecture: all
+Depends: ${shlibs:Depends},
+ ${misc:Depends},
+ perl,
+ perl-base,
+ munin-node
+Description: Package of Memcached Munin plugins.
+

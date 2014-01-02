@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -vf /etc/munin/plugins/memcached_*
+rm -rf /etc/munin/plugin-conf.d/memcached
+
+/etc/init.d/munin-node restart

@@ -1,0 +1,5 @@
+gw-voip-munin-plugins-memcached (0.0.1) stable; urgency=low
+
+  * Initial release.
+
+ -- Sunny Narendra <sunny.narendra@gradwell.com>  Mon, 23 Dec 2013 14:30:42 +0000
