@@ -1,2 +1,2 @@
-memcache* /usr/share/munin/plugins/
+memcached_multi_ /usr/share/munin/plugins/
 

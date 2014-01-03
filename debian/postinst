@@ -1,12 +1,8 @@
 #!/bin/bash
 
-PLUGINS="items memory bytes conns commands evictions"
+/usr/sbin/munin-node-configure --shell 2>/dev/null | grep memcached_multi_ | sh
 
-for p in $PLUGINS; do
-	ln -vsf  /usr/share/munin/plugins/memcached_ /etc/munin/plugins/memcached_$p
-done
-
-(echo "[memcached_*]"; echo "env.host 127.0.0.1 env.port 11211 env.timescale 3") > /etc/munin/plugin-conf.d/memcached
+(echo "[memcached_multi_*]"; echo "env.host 127.0.0.1 env.port 11211 env.timescale 3") > /etc/munin/plugin-conf.d/memcached_multi_
 
 /etc/init.d/munin-node restart
 
