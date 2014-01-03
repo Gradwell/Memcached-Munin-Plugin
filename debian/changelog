@@ -1,3 +1,9 @@
+gw-voip-munin-plugins-memcached (0.0.2) stable; urgency=low
+
+  * Install memcached_multi_ only. Symbolic links created via munin-node-configure. MON-75
+
+ -- Sunny Narendra <sunny.narendra@wheezybob.dev.bigv.gradwell.net>  Fri, 03 Jan 2014 16:00:57 +0000
+
 gw-voip-munin-plugins-memcached (0.0.1) stable; urgency=low
 
   * Initial release.
